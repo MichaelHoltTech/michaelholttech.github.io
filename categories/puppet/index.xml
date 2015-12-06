@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puppet on Michael Holt</title>
-    <link>http://www.mholt.tech/categories/puppet/</link>
+    <link>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/puppet/</link>
     <description>Recent content in Puppet on Michael Holt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Dec 2015 17:04:01 -0800</lastBuildDate>
-    <atom:link href="http://www.mholt.tech/categories/puppet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/puppet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting Started with Puppet</title>
-      <link>http://www.mholt.tech/blog/2015/12/04/getting-started-with-puppet</link>
+      <link>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/12/04/getting-started-with-puppet</link>
       <pubDate>Fri, 04 Dec 2015 17:04:01 -0800</pubDate>
       
-      <guid>http://www.mholt.tech/blog/2015/12/04/getting-started-with-puppet</guid>
+      <guid>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/12/04/getting-started-with-puppet</guid>
       <description>
 
-&lt;p&gt;Back at the Church IT Roundtable in October I began sharing about how we have implemented a Mac Management solution using Open Source Tools and I promised to provide tutorials on how to get started.  I&amp;rsquo;ve spent the time rebuilding the Docker Container to automate the setup of a new Puppet Server because of some issues that my original container experiences on occasion.  This post is going to cover the basics of getting Docker &amp;amp; Puppet up and running on a Ubuntu 14.04 server running Docker.  At the end of this post, you&amp;rsquo;ll have a working puppetserver and a mac checking into it.  Future posts will expand on how to use Puppet to configure your mac as well as the other parts of our environment mentioned in the &lt;a href=&#34;http://www.mholt.tech/blog/2015/10/08/our-path-to-mac-management/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Back at the Church IT Roundtable in October I began sharing about how we have implemented a Mac Management solution using Open Source Tools and I promised to provide tutorials on how to get started.  I&amp;rsquo;ve spent the time rebuilding the Docker Container to automate the setup of a new Puppet Server because of some issues that my original container experiences on occasion.  This post is going to cover the basics of getting Docker &amp;amp; Puppet up and running on a Ubuntu 14.04 server running Docker.  At the end of this post, you&amp;rsquo;ll have a working puppetserver and a mac checking into it.  Future posts will expand on how to use Puppet to configure your mac as well as the other parts of our environment mentioned in the &lt;a href=&#34;http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/10/08/our-path-to-mac-management/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;installing-docker:3d4599c341ffdbb5719eb1070b5ded00&#34;&gt;Installing Docker&lt;/h3&gt;
 

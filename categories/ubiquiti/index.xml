@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubiquiti on Michael Holt</title>
-    <link>http://www.mholt.tech/categories/ubiquiti/</link>
+    <link>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/ubiquiti/</link>
     <description>Recent content in Ubiquiti on Michael Holt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Aug 2015 09:50:39 -0800</lastBuildDate>
-    <atom:link href="http://www.mholt.tech/categories/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Pi Cam Matrix v2</title>
-      <link>http://www.mholt.tech/blog/2015/08/29/pi-cam-matrix-v2</link>
+      <link>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/29/pi-cam-matrix-v2</link>
       <pubDate>Sat, 29 Aug 2015 09:50:39 -0800</pubDate>
       
-      <guid>http://www.mholt.tech/blog/2015/08/29/pi-cam-matrix-v2</guid>
+      <guid>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/29/pi-cam-matrix-v2</guid>
       <description>
 
 &lt;p&gt;After a few days in production I discovered that over time the Pi&amp;rsquo;s would lose connection to the RTSP feeds.  The only two ways to resolve this were to reboot the Pi or SSH into the Pi.  Because of this I started back at the beginning and was able to develop another way of running this matrix that would automatically reload the RTSP feed if it was lost.  The initial Pi Setup instructions are identical to my last post, &lt;a href=&#34;http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix/&#34;&gt;Raspberry Pi Camera Matrix&lt;/a&gt;, the differences come in with setting up the new code base.&lt;/p&gt;
@@ -129,10 +129,10 @@ sudo update-rc.d cambottomright defaults
     
     <item>
       <title>Raspberry Pi Camera Matrix</title>
-      <link>http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix</link>
+      <link>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix</link>
       <pubDate>Fri, 21 Aug 2015 14:46:39 -0800</pubDate>
       
-      <guid>http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix</guid>
+      <guid>http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix</guid>
       <description>
 
 &lt;h2 id=&#34;i-have-posted-version-2-of-this-script-here-http-www-mholt-tech-blog-2015-08-29-pi-cam-matrix-v2:d0904f9017f523d8bddb9dd66c65f39e&#34;&gt;I have posted version 2 of this script &lt;a href=&#34;http://www.mholt.tech/blog/2015/08/29/pi-cam-matrix-v2/&#34;&gt;HERE&lt;/a&gt;&lt;/h2&gt;

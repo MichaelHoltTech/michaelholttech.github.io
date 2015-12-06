@@ -8,16 +8,16 @@
     <meta name="author" content="Michael Holt">
     
     
-    <link rel="icon" href="http://www.mholt.tech/favicon.ico">
-    <link rel="apple-touch-icon" href="http://www.mholt.tech/apple-touch-icon.png" />
-    <link rel="stylesheet" href="http://www.mholt.tech/css/style.css">
-    <link rel="stylesheet" href="http://www.mholt.tech/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://www.mholt.tech/css/monokai.css">
-    <link rel="stylesheet" href="http://www.mholt.tech/fancybox/jquery.fancybox.css">
+    <link rel="icon" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/favicon.ico">
+    <link rel="apple-touch-icon" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/apple-touch-icon.png" />
+    <link rel="stylesheet" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/css/style.css">
+    <link rel="stylesheet" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/css/monokai.css">
+    <link rel="stylesheet" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/fancybox/jquery.fancybox.css">
     <meta property="og:title" content="Raspberry Pi Camera Matrix" />
 <meta property="og:description" content="I have posted version 2 of this script HERE Over the last few months we&rsquo;ve been upgrading our Security Cameras, replacing a 10 year old vitek system with the Ubiquiti Unifi Video system. We just finished installing the last of these Cameras and that included the need to find a new solution for our Children&rsquo;s Cameras to be displayed onto two TV&rsquo;s. I found a Forum Post on the Ubiquiti Community that documented one person&rsquo;s script to display a 2x2 Camera Matrix on a Raspberry Pi So I went ahead and order 2x Raspberry Pi&rsquo;s to power both of these displays and thought &ldquo;Perfect, someone else has done the leg work all I have to do is plug in the RTSP URL&rsquo;s and presto&rdquo;." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" />
+<meta property="og:url" content="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" />
 
 
 <meta property="og:updated_time" content="2015-08-21T14:46:39-08:00"/>
@@ -62,11 +62,11 @@
 <header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
-      <a href="http://www.mholt.tech/" id="logo"><i class="logo" style="background-image: url('http://www.mholt.tech/css/images/logo.png')"></i><span class="site-title">Michael Holt</span></a>
+      <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/" id="logo"><i class="logo" style="background-image: url('http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/css/images/logo.png')"></i><span class="site-title">Michael Holt</span></a>
       <nav id="main-nav">
           
           
-          <a class="main-nav-link" href="http://www.mholt.tech/">Home</a>
+          <a class="main-nav-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/">Home</a>
           
           
           
@@ -80,17 +80,17 @@
           
           
           
-          <a class="main-nav-link" href="http://www.mholt.tech/tags/">Tags</a>
+          <a class="main-nav-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/tags/">Tags</a>
           
           
           
-          <a class="main-nav-link" href="http://www.mholt.tech/categories/">Categories</a>
+          <a class="main-nav-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/">Categories</a>
           
           
       </nav>
         <nav id="sub-nav">
           <div class="profile" id="profile-nav">
-            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="http://www.mholt.tech/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
           </div>
         </nav>
         <div id="search-form-wrap">
@@ -98,7 +98,7 @@
               <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
               <button type="submit" class="search-form-submit">
               </button>
-              <input type="hidden" name="q" value="site:http://www.mholt.tech/">
+              <input type="hidden" name="q" value="site:http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/">
          </form>
         </div>
     </div>
@@ -109,7 +109,7 @@
           <tr>
           
           
-          <td><a class="main-nav-link" href="http://www.mholt.tech/">Home</a></td>
+          <td><a class="main-nav-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/">Home</a></td>
           
           
           
@@ -123,17 +123,17 @@
           
           
           
-          <td><a class="main-nav-link" href="http://www.mholt.tech/tags/">Tags</a></td>
+          <td><a class="main-nav-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/tags/">Tags</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://www.mholt.tech/categories/">Categories</a></td>
+          <td><a class="main-nav-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/">Categories</a></td>
           
           
           <td>
           <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
           <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
-          <input type="hidden" name="q" value="site:http://www.mholt.tech/">
+          <input type="hidden" name="q" value="site:http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/">
           </form>
         </td>
       </tr>
@@ -148,7 +148,7 @@
     <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
-      <img id="avatar" src="http://www.mholt.tech/css/images/avatar.png">
+      <img id="avatar" src="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/css/images/avatar.png">
       <h2 id="name">Michael Holt</h2>
       <h3 id="title">I am an IT Administrator, Network Admin, Server Admin, Programmer, and Jack-Of-All-Trades serving the lord and the church with my talents.</h3>
       <span id="location"><i class="fa fa-map-marker"></i>Valencia, CA</span>
@@ -231,7 +231,7 @@
             
 
             <header class="article-header">
-    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix">
+    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix">
     <h1 class="article-title" itemprop="name">
         Raspberry Pi Camera Matrix
     </h1>
@@ -250,13 +250,13 @@
         <div class="article-category">
             
             <i class="fa fa-folder"></i>
-            <a class="article-category-link" href="http://www.mholt.tech/categories/unifi-video">Unifi Video</a>
+            <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/unifi-video">Unifi Video</a>
             
             <i class="fa fa-folder"></i>
-            <a class="article-category-link" href="http://www.mholt.tech/categories/ubiquiti">Ubiquiti</a>
+            <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/ubiquiti">Ubiquiti</a>
             
             <i class="fa fa-folder"></i>
-            <a class="article-category-link" href="http://www.mholt.tech/categories/raspberry-pi">Raspberry Pi</a>
+            <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/raspberry-pi">Raspberry Pi</a>
             
         </div>
     </div>
@@ -369,11 +369,11 @@
 
             </div>
             <footer class="article-footer">
-    <a data-url="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" data-id="d0904f9017f523d8bddb9dd66c65f39e" class="article-share-link">
+    <a data-url="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" data-id="d0904f9017f523d8bddb9dd66c65f39e" class="article-share-link">
         Share
     </a>
     
-    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix/#disqus_thread" class="article-comment-link">
+    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -384,7 +384,7 @@
         
 <nav id="article-nav">
     
-    <a href="http://www.mholt.tech/blog/2015/08/10/welcome-to-my-blog" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/10/welcome-to-my-blog" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Older
       </strong>
@@ -393,7 +393,7 @@
     
 
     
-    <a href="http://www.mholt.tech/blog/2015/08/29/pi-cam-matrix-v2" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/29/pi-cam-matrix-v2" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Newer
       </strong>
@@ -409,9 +409,9 @@
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'mholttech';
-    var disqus_identifier = 'http:\/\/www.mholt.tech\/blog\/2015\/08\/21\/raspberry-pi-camera-matrix';
+    var disqus_identifier = 'http:\/\/www.mholt.tech.s3-website-us-west-1.amazonaws.com\/blog\/2015\/08\/21\/raspberry-pi-camera-matrix';
     var disqus_title = 'Raspberry Pi Camera Matrix';
-    var disqus_url = 'http:\/\/www.mholt.tech\/blog\/2015\/08\/21\/raspberry-pi-camera-matrix';
+    var disqus_url = 'http:\/\/www.mholt.tech.s3-website-us-west-1.amazonaws.com\/blog\/2015\/08\/21\/raspberry-pi-camera-matrix';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -437,7 +437,7 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
+                    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
                     
@@ -446,12 +446,12 @@
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://www.mholt.tech/categories/puppet">
+                        <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/puppet">
                         Puppet
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://www.mholt.tech/blog/2015/12/04/getting-started-with-puppet" class="title">Getting Started with Puppet</a></p>
+                    <p class="item-title"><a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/12/04/getting-started-with-puppet" class="title">Getting Started with Puppet</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-04 17:04:01 -0800 PST" itemprop="datePublished">2015-12-04</time>
                     </p>
@@ -460,7 +460,7 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
+                    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
                     
@@ -469,12 +469,12 @@
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://www.mholt.tech/categories/mac-management">
+                        <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/mac-management">
                         Mac Management
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://www.mholt.tech/blog/2015/10/08/our-path-to-mac-management" class="title">Our path to Mac Management</a></p>
+                    <p class="item-title"><a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/10/08/our-path-to-mac-management" class="title">Our path to Mac Management</a></p>
                     <p class="item-date">
                         <time datetime="2015-10-08 19:48:15 -0800 -0800" itemprop="datePublished">2015-10-08</time>
                     </p>
@@ -483,7 +483,7 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
+                    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
                     
@@ -492,12 +492,12 @@
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://www.mholt.tech/categories/unifi-video">
+                        <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/unifi-video">
                         Unifi Video
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://www.mholt.tech/blog/2015/08/29/pi-cam-matrix-v2" class="title">Pi Cam Matrix v2</a></p>
+                    <p class="item-title"><a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/29/pi-cam-matrix-v2" class="title">Pi Cam Matrix v2</a></p>
                     <p class="item-date">
                         <time datetime="2015-08-29 09:50:39 -0800 -0800" itemprop="datePublished">2015-08-29</time>
                     </p>
@@ -506,7 +506,7 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
+                    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
                     
@@ -515,12 +515,12 @@
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://www.mholt.tech/categories/unifi-video">
+                        <a class="article-category-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/unifi-video">
                         Unifi Video
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" class="title">Raspberry Pi Camera Matrix</a></p>
+                    <p class="item-title"><a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" class="title">Raspberry Pi Camera Matrix</a></p>
                     <p class="item-date">
                         <time datetime="2015-08-21 14:46:39 -0800 -0800" itemprop="datePublished">2015-08-21</time>
                     </p>
@@ -529,7 +529,7 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://www.mholt.tech/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
+                    <a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/21/raspberry-pi-camera-matrix" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
                     
@@ -537,7 +537,7 @@
                 </div>
                 <div class="item-inner">
                     
-                    <p class="item-title"><a href="http://www.mholt.tech/blog/2015/08/10/welcome-to-my-blog" class="title">Welcome to my Blog!</a></p>
+                    <p class="item-title"><a href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/blog/2015/08/10/welcome-to-my-blog" class="title">Welcome to my Blog!</a></p>
                     <p class="item-date">
                         <time datetime="2015-08-10 21:02:17 -0800 -0800" itemprop="datePublished">2015-08-10</time>
                     </p>
@@ -557,35 +557,35 @@
         <ul class="category-list">
             
             <li class="category-list-item">
-                <a class="category-list-link" href="http://www.mholt.tech/categories/mac-management">
+                <a class="category-list-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/mac-management">
                     mac-management
                 </a>
                 <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="http://www.mholt.tech/categories/puppet">
+                <a class="category-list-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/puppet">
                     puppet
                 </a>
                 <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="http://www.mholt.tech/categories/raspberry-pi">
+                <a class="category-list-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/raspberry-pi">
                     raspberry-pi
                 </a>
                 <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="http://www.mholt.tech/categories/ubiquiti">
+                <a class="category-list-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/ubiquiti">
                     ubiquiti
                 </a>
                 <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="http://www.mholt.tech/categories/unifi-video">
+                <a class="category-list-link" href="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/categories/unifi-video">
                     unifi-video
                 </a>
                 <span class="category-list-count">2</span>
@@ -629,8 +629,8 @@ ga('send', 'pageview');
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://www.mholt.tech/fancybox/jquery.fancybox.pack.js"></script>
-<script src="http://www.mholt.tech/js/script.js"></script>
+<script src="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/fancybox/jquery.fancybox.pack.js"></script>
+<script src="http://www.mholt.tech.s3-website-us-west-1.amazonaws.com/js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
